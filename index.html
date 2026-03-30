@@ -1,226 +1,274 @@
-<div class="page">
-  <main class="container">
-    <header class="hero">
-      <div class="hero-copy">
-        <h1>Stacks &amp; Sliders</h1>
-        <link rel="stylesheet" href="style.css">
-        <p>A game of luck and skill — played with black and gold disks.</p>
-      </div>
-
-      <div class="hero-stacks" aria-hidden="true">
-        <div class="stack-visual two">
-          <span class="slider-bar black"></span>
-          <span class="slider-bar gold"></span>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stacks & Sliders</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <main class="container">
+      <header class="hero">
+        <div class="hero-copy">
+          <h1>Stacks &amp; Sliders</h1>
+          <p>A game of luck and skill</p>
         </div>
 
-        <div class="stack-visual three">
-          <span class="slider-bar black"></span>
-          <span class="slider-bar gold"></span>
-          <span class="slider-bar black"></span>
+        <div class="hero-stacks" aria-hidden="true">
+          <div class="stack-visual">
+            <span class="slider-bar black"></span>
+            <span class="slider-bar gold"></span>
+          </div>
+
+          <div class="stack-visual">
+            <span class="slider-bar black"></span>
+            <span class="slider-bar gold"></span>
+            <span class="slider-bar black"></span>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="rule-section">
-      <h2>About</h2>
-      <p>
-        Stacks and Sliders is a game where you both need to be lucky and skilful.
-        Master the art of placing your sliders to build high-value stacks and
-        outscore your opponents across multiple rounds.
-      </p>
-    </section>
+      <section class="rule-section">
+        <h2>
+          <button class="section-toggle" type="button" aria-expanded="false">
+            <span>About</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </h2>
 
-    <section class="rule-section">
-      <h2>What it comes with</h2>
-      <p class="section-copy">
-        5 small disks of one colour and 5 more of a different colour.
-      </p>
-
-      <div class="token-groups">
-        <div class="token-group">
-          <div class="token-row">
-            <span class="token black"></span>
-            <span class="token black"></span>
-            <span class="token black"></span>
-            <span class="token black"></span>
-            <span class="token black"></span>
-          </div>
-          <span class="token-label">black</span>
+        <div class="section-body">
+          <p>
+            Stacks and Sliders is a game where you both need to be lucky and skilful.
+            Master the art of placing your sliders to build high-value stacks and
+            outscore your opponents across multiple rounds.
+          </p>
         </div>
+      </section>
 
-        <div class="token-group">
-          <div class="token-row">
-            <span class="token gold"></span>
-            <span class="token gold"></span>
-            <span class="token gold"></span>
-            <span class="token gold"></span>
-            <span class="token gold"></span>
+      <section class="rule-section">
+        <h2>
+          <button class="section-toggle" type="button" aria-expanded="false">
+            <span>What it comes with</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </h2>
+
+        <div class="section-body">
+          <p class="section-copy">
+            5 small disks of one colour and 5 more of a different colour.
+          </p>
+
+          <div class="token-groups">
+            <div class="token-group">
+              <div class="token-row">
+                <span class="token black"></span>
+                <span class="token black"></span>
+                <span class="token black"></span>
+                <span class="token black"></span>
+                <span class="token black"></span>
+              </div>
+              <span class="token-label">black</span>
+            </div>
+
+            <div class="token-group">
+              <div class="token-row">
+                <span class="token gold"></span>
+                <span class="token gold"></span>
+                <span class="token gold"></span>
+                <span class="token gold"></span>
+                <span class="token gold"></span>
+              </div>
+              <span class="token-label">gold</span>
+            </div>
           </div>
-          <span class="token-label">gold</span>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="rule-section">
-      <h2>How to Play</h2>
+      <section class="rule-section">
+        <h2>
+          <button class="section-toggle" type="button" aria-expanded="false">
+            <span>How to Play</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </h2>
 
-      <ol class="steps">
-        <li class="step">
-          <span class="step-number">1</span>
-          <span>Shuffle the disks (named <strong>sliders</strong>) and put them in a neat pile.</span>
-        </li>
-        <li class="step">
-          <span class="step-number">2</span>
-          <span>Grab the top slider and place it down <em>anywhere</em> on the playing field.</span>
-        </li>
-        <li class="step">
-          <span class="step-number">3</span>
-          <span>
-            Grab another slider and place it adjacent but
-            <strong class="danger-text">not on</strong>
-            the previous two placed sliders — as if you are playing a game of snake.
-          </span>
-        </li>
-        <li class="step">
-          <span class="step-number">4</span>
-          <span>Repeat this process until you have placed all sliders.</span>
-        </li>
-        <li class="step">
-          <span class="step-number">5</span>
-          <span>Repeat all steps with the other player and see who gets the highest score.</span>
-        </li>
-      </ol>
+        <div class="section-body">
+          <ol class="steps">
+            <li class="step">
+              <span class="step-number">1</span>
+              <span>Shuffle the disks (named <strong>sliders</strong>) and put them in a neat pile.</span>
+            </li>
+            <li class="step">
+              <span class="step-number">2</span>
+              <span>Grab the top slider and place it down <em>anywhere</em> on the playing field.</span>
+            </li>
+            <li class="step">
+              <span class="step-number">3</span>
+              <span>
+                Grab another slider and place it adjacent but
+                <strong class="danger-text">not on</strong>
+                the previous placed sliders — as if you are playing a game of snake.
+              </span>
+            </li>
+            <li class="step">
+              <span class="step-number">4</span>
+              <span>Repeat this process until you have placed all sliders.</span>
+            </li>
+            <li class="step">
+              <span class="step-number">5</span>
+              <span>Repeat all steps with the other player and see who gets the highest score.</span>
+            </li>
+          </ol>
 
-      <div class="example-wrap">
-        <p class="eyebrow">Example snake placement</p>
+          <div class="example-wrap">
+            <p class="eyebrow">Example snake placement</p>
 
-        <div class="snake-example">
-          <div class="board">
-            <div class="cell"></div>
-            <div class="cell">
-              <span class="board-token black">6</span>
+            <div class="snake-example">
+              <div class="board">
+                <div class="cell"></div>
+                <div class="cell">
+                  <span class="board-token black">6</span>
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+
+                <div class="cell"></div>
+                <div class="cell stacked-cell">
+                  <span class="board-token gold layer-1">1</span>
+                  <span class="board-token gold layer-2 stack-top">5</span>
+                </div>
+                <div class="cell">
+                  <span class="board-token gold">2</span>
+                </div>
+                <div class="cell"></div>
+
+                <div class="cell"></div>
+                <div class="cell">
+                  <span class="board-token gold">4</span>
+                </div>
+                <div class="cell">
+                  <span class="board-token black">3</span>
+                </div>
+                <div class="cell"></div>
+
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+              </div>
+
+              <p class="danger-note">Red outline = stacked slider</p>
             </div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-
-            <div class="cell"></div>
-            <div class="cell stacked-cell">
-              <span class="board-token gold layer-1">1</span>
-              <span class="board-token gold layer-2 stack-top">5</span>
-            </div>
-            <div class="cell">
-              <span class="board-token gold">2</span>
-            </div>
-            <div class="cell"></div>
-
-            <div class="cell"></div>
-            <div class="cell">
-              <span class="board-token gold">4</span>
-            </div>
-            <div class="cell">
-              <span class="board-token black">3</span>
-            </div>
-            <div class="cell"></div>
-
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
           </div>
-
-          <p class="danger-note">Red outline = stacked slider</p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="rule-section">
-      <h2>Aim of the Game</h2>
+      <section class="rule-section">
+        <h2>
+          <button class="section-toggle" type="button" aria-expanded="false">
+            <span>Aim of the Game</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </h2>
 
-      <p class="section-copy">
-        Try to put as many same-coloured sliders on top of each other to gain
-        points. Place carefully — every stack counts.
-      </p>
+        <div class="section-body">
+          <p class="section-copy">
+            Try to put as many same-coloured sliders on top of each other to gain
+            points. Place carefully — every stack counts.
+          </p>
 
-      <div class="score-grid">
-        <article class="score-card">
-          <div class="stack-area">
-            <div class="mini-stack">
-              <span class="slider-bar black"></span>
-              <span class="slider-bar black"></span>
-            </div>
+          <div class="score-grid">
+            <article class="score-card">
+              <div class="stack-area">
+                <div class="mini-stack">
+                  <span class="slider-bar black"></span>
+                  <span class="slider-bar black"></span>
+                </div>
+              </div>
+              <div class="score-value">1</div>
+              <div class="score-label">point</div>
+              <div class="score-desc">Stack of 2</div>
+            </article>
+
+            <article class="score-card">
+              <div class="stack-area">
+                <div class="mini-stack">
+                  <span class="slider-bar gold"></span>
+                  <span class="slider-bar gold"></span>
+                  <span class="slider-bar gold"></span>
+                </div>
+              </div>
+              <div class="score-value">3</div>
+              <div class="score-label">points</div>
+              <div class="score-desc">Stack of 3</div>
+            </article>
+
+            <article class="score-card">
+              <div class="stack-area">
+                <div class="mini-stack">
+                  <span class="slider-bar black"></span>
+                  <span class="slider-bar black"></span>
+                  <span class="slider-bar black"></span>
+                  <span class="slider-bar black"></span>
+                </div>
+              </div>
+              <div class="score-value">5</div>
+              <div class="score-label">points</div>
+              <div class="score-desc">Stack of 4</div>
+            </article>
           </div>
-          <div class="score-value">1</div>
-          <div class="score-label">point</div>
-          <div class="score-desc">Stack of 2</div>
-        </article>
-
-        <article class="score-card">
-          <div class="stack-area">
-            <div class="mini-stack">
-              <span class="slider-bar gold"></span>
-              <span class="slider-bar gold"></span>
-              <span class="slider-bar gold"></span>
-            </div>
-          </div>
-          <div class="score-value">3</div>
-          <div class="score-label">points</div>
-          <div class="score-desc">Stack of 3</div>
-        </article>
-
-        <article class="score-card">
-          <div class="stack-area">
-            <div class="mini-stack">
-              <span class="slider-bar black"></span>
-              <span class="slider-bar black"></span>
-              <span class="slider-bar black"></span>
-              <span class="slider-bar black"></span>
-            </div>
-          </div>
-          <div class="score-value">5</div>
-          <div class="score-label">points</div>
-          <div class="score-desc">Stack of 4</div>
-        </article>
-      </div>
-    </section>
-
-    <section class="rule-section">
-      <h2>Multi-Round Scoring</h2>
-
-      <p class="section-copy">
-        For multiple rounds, your points <strong>multiply</strong> by each other to get your final score.
-      </p>
-
-      <div class="math-box">
-        <p class="eyebrow">Example</p>
-
-        <div class="math-row">
-          <div class="math-pill-group">
-            <span class="math-pill">3</span>
-            <span class="math-caption">round 1</span>
-          </div>
-
-          <span class="math-symbol">×</span>
-
-          <div class="math-pill-group">
-            <span class="math-pill">5</span>
-            <span class="math-caption">round 2</span>
-          </div>
-
-          <span class="math-symbol">×</span>
-
-          <div class="math-pill-group">
-            <span class="math-pill">2</span>
-            <span class="math-caption">round 3</span>
-          </div>
-
-          <span class="math-symbol">=</span>
-          <span class="math-total">30</span>
         </div>
+      </section>
 
-        <p class="warning-text">
-          Try not to score a <strong>0</strong> in any round — it wipes out your entire total!
-        </p>
-      </div>
-    </section>
-  </main>
-</div>
+      <section class="rule-section">
+        <h2>
+          <button class="section-toggle" type="button" aria-expanded="false">
+            <span>Multi-Round Scoring</span>
+            <span class="toggle-icon" aria-hidden="true"></span>
+          </button>
+        </h2>
+
+        <div class="section-body">
+          <p class="section-copy">
+            For multiple rounds, your points <strong>multiply</strong> by each other to get your final score.
+          </p>
+
+          <div class="math-box">
+            <p class="eyebrow">Example</p>
+
+            <div class="math-row">
+              <div class="math-pill-group">
+                <span class="math-pill">3</span>
+                <span class="math-caption">round 1</span>
+              </div>
+
+              <span class="math-symbol">×</span>
+
+              <div class="math-pill-group">
+                <span class="math-pill">5</span>
+                <span class="math-caption">round 2</span>
+              </div>
+
+              <span class="math-symbol">×</span>
+
+              <div class="math-pill-group">
+                <span class="math-pill">2</span>
+                <span class="math-caption">round 3</span>
+              </div>
+
+              <span class="math-symbol">=</span>
+              <span class="math-total">30</span>
+            </div>
+
+            <p class="warning-text">
+              Try not to score a <strong>0</strong> in any round — it wipes out your entire total!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
