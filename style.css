@@ -511,9 +511,15 @@ select {
     margin-bottom: 1.75rem;
   }
 
+  .hero-copy {
+    margin-top: 0.5rem;
+  }
+
   .hero-stacks {
-    width: 100%;
-    justify-content: flex-start;
+    position: absolute;
+    top: auto;
+    right: 1.5rem;
+    margin-top: 4.5rem;
   }
 
   .score-grid {
@@ -530,6 +536,15 @@ select {
     width: min(100% - 1rem, 980px);
     padding-top: 1rem;
     padding-bottom: 2.5rem;
+  }
+
+  .hero-copy {
+    margin-top: 1rem;
+  }
+
+  .hero-stacks {
+    right: 1rem;
+    margin-top: 5rem;
   }
 
   .hero-copy h1 {
