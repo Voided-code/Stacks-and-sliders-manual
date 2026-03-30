@@ -209,7 +209,7 @@ select {
   overflow: hidden;
   opacity: 0;
   padding-bottom: 0;
-  transition: height 0.32s ease, opacity 0.22s ease, padding-bottom 0.32s ease;
+  transition: height 0.65s ease, opacity 0.65s ease, padding-bottom 0.65s ease;
 }
 
 .rule-section.open .section-body {
