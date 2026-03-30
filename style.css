@@ -479,9 +479,9 @@ select {
 
 .math-total {
   color: var(--gold);
-  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  font-size: clamp(2rem, 4vw, 2.8rem);
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1;
   padding-top: 0.1rem;
 }
 
