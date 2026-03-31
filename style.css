@@ -622,6 +622,16 @@ select {
   }
 }
 
+@media (max-width: 640px) and (orientation: landscape) {
+  .hero-copy {
+    padding-bottom: 3rem;
+  }
+
+  .hero-stacks {
+    margin-top: 8rem;
+  }
+}
+
 @media (min-width: 1200px) {
   html {
     font-size: 17px;
