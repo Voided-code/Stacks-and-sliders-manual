@@ -665,9 +665,8 @@ select {
   }
 }
 
-@media (min-width: 768px) {
-  .page 
-  { 
-    display: flex; flex-direction: column; justify-content: center; 
-  } 
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
