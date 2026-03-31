@@ -644,6 +644,17 @@ select {
   }
 }
 
+@media (orientation: portrait) {
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-copy {
+    padding-bottom: 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .rule-section,
   .section-body,
