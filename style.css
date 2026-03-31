@@ -507,19 +507,20 @@ select {
   }
 
   .hero {
+    position: relative;
     gap: 1.5rem;
     margin-bottom: 1.75rem;
   }
 
   .hero-copy {
     margin-top: 0.5rem;
+    padding-right: 6.5rem; /* ensure the stack area doesn't overlap the copy */
   }
 
   .hero-stacks {
     position: absolute;
-    top: auto;
+    top: 1.1rem; /* under the title, above subtitle */
     right: 1.5rem;
-    margin-top: 4.5rem;
   }
 
   .score-grid {
@@ -540,12 +541,13 @@ select {
 
   .hero-copy {
     margin-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.8rem;
+    padding-right: 5.5rem;
   }
 
   .hero-stacks {
+    top: 3rem;
     right: 1rem;
-    margin-top: 6.5rem;
   }
 
   .hero-copy h1 {
