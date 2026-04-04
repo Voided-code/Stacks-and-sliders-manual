@@ -81,7 +81,8 @@ select {
   font-size: clamp(2.25rem, 5vw, 4.5rem);
   line-height: 0.95;
   letter-spacing: -0.04em;
-  padding-inline: 10px;
+  padding-inline: 30px;
+  display: inline-block;
 }
 
 .h1-sub {
@@ -90,7 +91,7 @@ select {
   line-height: 1;
   letter-spacing: 0;
   margin-top: 0.2em;
-  padding-inline: 3px;
+  text-align: center;
 }
 
 .hero-copy p {
