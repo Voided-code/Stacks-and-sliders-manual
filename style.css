@@ -131,11 +131,11 @@ select {
 }
 
 .rule-section {
-  margin-bottom: 1rem;
-  padding: 0.4rem 1rem;
+  margin-bottom: 0.85rem;
+  padding: 0.2rem 0.85rem;
   background: rgba(26, 26, 26, 0.9);
   border: 1px solid var(--border);
-  border-radius: 1rem;
+  border-radius: 0.85rem;
   box-shadow: none;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
@@ -152,17 +152,17 @@ select {
 
 .section-toggle {
   width: 100%;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   border: 0;
   background: transparent;
   color: var(--gold);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.85rem;
   text-align: left;
   cursor: pointer;
-  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  font-size: clamp(1.05rem, 1.8vw, 1.4rem);
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -179,9 +179,9 @@ select {
 
 .toggle-icon {
   position: relative;
-  width: 1.1rem;
-  height: 1.1rem;
-  flex: 0 0 1.1rem;
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
 }
 
 .toggle-icon::before,
@@ -190,7 +190,7 @@ select {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 1.1rem;
+  width: 1rem;
   height: 2px;
   background: var(--gold);
   border-radius: 999px;
@@ -217,12 +217,12 @@ select {
 
 .rule-section.open .section-body {
   opacity: 1;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
 }
 
 .section-body p,
 .section-body li {
-  font-size: clamp(1rem, 1.4vw, 1.08rem);
+  font-size: clamp(0.98rem, 1.35vw, 1.05rem);
 }
 
 .section-copy,
@@ -516,12 +516,12 @@ select {
 
   .hero-copy {
     margin-top: 0.5rem;
-    padding-right: 6.5rem; /* ensure the stack area doesn't overlap the copy */
+    padding-right: 6.5rem;
   }
 
   .hero-stacks {
     position: absolute;
-    top: 1.1rem; /* under the title, above subtitle */
+    top: 1.1rem;
     right: 1.5rem;
   }
 
@@ -561,19 +561,19 @@ select {
   }
 
   .rule-section {
-    border-radius: 0.9rem;
-    padding: 0.3rem 0.85rem;
+    border-radius: 0.75rem;
+    padding: 0.15rem 0.7rem;
   }
 
   .section-toggle {
-    padding: 0.95rem 0;
-    font-size: 1.15rem;
+    padding: 0.72rem 0;
+    font-size: 1.05rem;
   }
 
   .section-body p,
   .section-body li,
   .section-body span {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
 
   .token-groups {
