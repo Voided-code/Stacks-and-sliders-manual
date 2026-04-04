@@ -667,11 +667,9 @@ select {
   }
 }
 
-@media (min-width: 1040px) {
-  .page {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
